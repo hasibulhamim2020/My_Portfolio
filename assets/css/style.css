@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Prism&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: 'Tilt Prism', cursive; 
+}
+.navbar{
+    font-weight: 700;
+    font-size: large;
+}
+
+/* home page start  */
+.set-bg-img{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url(../img/bg-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    width: 100%;
+}
+.top-content{
+    margin-top:5rem;
+}
+.set-middle-name{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+}
+.set-middle-name h1{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+/* home page end */
+
+/* about page style start  */
+.my-about{
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.1));
+}
+img{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+.nam-pro-email-phn{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.my-justify{
+    text-align: justify;
+}
+.card-title{
+    font-weight: 700;
+}
+/* about page style end */
+.my-services{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0));
+}
+
+
+.my-contact{
+    background-image:linear-gradient(rgba(0, 0, 255, .3),rgb(0,0, 255,1));
+    width: 100%;
+    padding: 5%;
+}
+.my-contact-box{
+   height: 500px;
+   width: 100%;
+   background-color: white;
+   border-radius: 10px;
+   padding: 5%;
+}
+.my-footer{
+    background-color: blue;
+    padding: 2%;
+    color: azure;
+}
+
+
+
+
+
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Tilt Prism', cursive; */

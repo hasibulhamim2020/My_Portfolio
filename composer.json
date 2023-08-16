@@ -1,0 +1,20 @@
+{
+  "name": "my-portfolio/my-portfolio",
+  "type": "project",
+  "description": "This is my portfolio",
+  "keywords": [],
+  "license": "",
+  "authors": [
+    {
+      "name": "Hasibul Hamim",
+      "email": "hasibulhamim2020@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
